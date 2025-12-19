@@ -4,6 +4,7 @@ This repo is a collection of things I've added, changed, or figured out while wo
 
 ## What's inside
 - ComfyUI: Dockerized ComfyUI for DGX Spark with run scripts (see `ComfyUI/README.md`).
+- Network: Quick QSFP link setup notes for pairing two DGX Spark nodes (see `Network/README.md`).
 - Playbooks for spinning up and tuning Spark on DGX systems.
 - Config snippets for RAPIDS Accelerator, UCX/RDMA, GPU scheduling, and I/O tuning.
 - Notes from experiments and benchmarks (what worked, what did not, and why).
@@ -17,6 +18,9 @@ This repo is a collection of things I've added, changed, or figured out while wo
 
 ## ComfyUI
 Run ComfyUI on DGX Spark with the Docker image and scripts in `ComfyUI/README.md`.
+
+## Network
+Bring up a simple point-to-point QSFP link between two DGX Spark nodes using the steps in `Network/README.md`.
 
 ## Environment assumptions
 - Access to an NVIDIA DGX system with recent NVIDIA drivers.
