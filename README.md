@@ -5,12 +5,16 @@ This repo is a collection of things I've added, changed, or figured out while wo
 ## What's inside
 - ComfyUI: Dockerized ComfyUI for DGX Spark with run scripts (see `ComfyUI/README.md`).
 - Network: Quick QSFP link setup notes for pairing two DGX Spark nodes (see `Network/README.md`).
+- Ollama-Upgrading: Upgrading Ollama in Open WebUI container (see `Ollama-Upgrading/README.md`).
 
 ## ComfyUI
 Run ComfyUI on DGX Spark with the Docker image and scripts in `ComfyUI/README.md`.
 
 ## Network
 Bring up a simple point-to-point QSFP link between two DGX Spark nodes using the steps in `Network/README.md`.
+
+## Ollama-Upgrading
+Upgrade Ollama to the latest version inside the Open WebUI container using the steps in `Ollama-Upgrading/README.md`.
 
 ## License
 This project is licensed under the terms of the LICENSE file in this repository.
