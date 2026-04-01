@@ -8,6 +8,7 @@ This repo is a collection of things I've added, changed, or figured out while wo
    - Ollama-Upgrading: Upgrading Ollama in Open WebUI container (see `Ollama-Upgrading/README.md`).
    - RustDesk: Self-hosted remote desktop access with TailScale and RustDesk (see `RustDesk/README.md`).
    - Vibe Coding: Enhancing AI-assisted coding with Roo and local LLMs (see `vibe-coding/README.md`).
+   - Cohere-Transcribe: Local deployment of Cohere Transcribe via Docker with a PySide6 GUI client (see `Cohere-Transcribe/README.md`).
 
 ## ComfyUI
 Run ComfyUI on DGX Spark with the Docker image and scripts in `ComfyUI/README.md`.
@@ -23,6 +24,9 @@ Enhance your AI-assisted coding experience with Roo and local LLMs. See `vibe-co
 
 ## RustDesk
 Self-hosted remote desktop access with TailScale and RustDesk. See `RustDesk/README.md` for installation details.
+
+## Cohere-Transcribe
+Deploy local transcribing endpoints using Docker and interact securely through the WriteDown GUI client. See `Cohere-Transcribe/README.md` for steps to deploy and UI usage instructions.
 
 ## License
 This project is licensed under the terms of the LICENSE file in this repository.
