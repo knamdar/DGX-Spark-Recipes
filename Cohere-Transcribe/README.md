@@ -2,6 +2,8 @@
 
 This repository contains deployment recipes and tools for spinning up the [Cohere Transcribe Model](https://huggingface.co/blog/CohereLabs/cohere-transcribe-03-2026-release) model locally using vLLM on your DGX Spark!
 
+> **Note**: The model weights could not be pre-packaged directly into the base Docker image because it is a gated model on Hugging Face. You must authenticate with an access token first to download it.
+
 ## Server Deployment Steps
 Follow these steps strictly to successfully deploy the Dockerized vLLM Server locally:
 
